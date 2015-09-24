@@ -1,0 +1,45 @@
+{
+  "name": "grunt-dharma",
+  "description": "Grunt Task for running Dharma",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mikedon/grunt-dharma",
+  "author": {
+    "name": "mdonovan",
+    "email": "mikedonovan1987@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikedon/grunt-dharma.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikedon/grunt-dharma/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mikedon/grunt-dharma/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "main": "Gruntfile.js",
+  "scripts": {
+    "clean": "rm -rf tasks",
+    "tsc": "tsc",
+    "build": "npm run clean && npm run tsc"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "dharma",
+    "gruntplugin"
+  ]
+}

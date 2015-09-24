@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,        
+        "sourceMap": true,
+        "outDir": "tasks"
+    },
+	"files": [
+		"typings/tsd.d.ts",
+		"src/dharma.ts"
+	]
+}
