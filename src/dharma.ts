@@ -1,4 +1,4 @@
-import {Dharma} from "dharma";
+import {Dharma} from "dharma-nodejs";
 
 function runDharma(grunt: IGrunt){
 	grunt.registerMultiTask('dharma', 'Runs Dharma', function(){	
