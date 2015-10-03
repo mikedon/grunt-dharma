@@ -1,4 +1,4 @@
-import {Dharma} from "dharma-nodejs";
+import {Dharma} from "dharma";
 
 function runDharma(grunt: IGrunt){
 	grunt.registerMultiTask('dharma', 'Runs Dharma', function(){	
@@ -7,7 +7,6 @@ function runDharma(grunt: IGrunt){
 		let dharma = new Dharma(options["configFile"]);
 		let done = that.async();
 		
-		//TODO this is async
 		dharma.run().then(()=>{
 			done();
 		}).catch((err)=>{

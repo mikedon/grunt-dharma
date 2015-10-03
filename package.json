@@ -1,7 +1,7 @@
 {
   "name": "grunt-dharma",
   "description": "Grunt Task for running Dharma",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/mikedon/grunt-dharma",
   "author": {
     "name": "mdonovan",
@@ -40,7 +40,7 @@
   },
   "peerDependencies": {
     "grunt": "~0.4.5",
-    "dharma-nodejs": "^0.0.2-1"
+    "dharma": "^0.0.1"
   },
   "keywords": [
     "dharma",
