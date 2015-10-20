@@ -1,7 +1,7 @@
 {
   "name": "grunt-dharma",
   "description": "Grunt Task for running Dharma",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/mikedon/grunt-dharma",
   "author": {
     "name": "mdonovan",
