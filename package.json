@@ -40,7 +40,7 @@
   },
   "peerDependencies": {
     "grunt": "~0.4.5",
-    "dharma": "^0.0.1"
+    "dharma": "^0.0.x"
   },
   "keywords": [
     "dharma",
